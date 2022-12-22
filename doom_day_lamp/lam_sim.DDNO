@@ -1,0 +1,142 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                          Dynamic DC of lam_sim                           ***
+***                          12/20/2022 4:21:15 AM                           ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             2.500   2             2.200   3             2.200  
+4             2.200   5             2.200   6             2.200  
+7             2.200   8             2.200   9             2.200  
+10            2.200   11            2.200  
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:           LED2.D        LED3.D        LED4.D        LED5.D        LED6.D
+
+Capacitance Terms:
+CAP                76.085p       76.085p       76.085p       76.085p       76.085p
+
+Current Terms:
+ID                 19.999m       19.999m       19.999m       19.999m       19.999m
+
+Resistance Terms:
+REQ                 1.293         1.293         1.293         1.293         1.293 
+
+Voltage Terms:
+VD                  2.200         2.200         2.200         2.200         2.200 
+
+Power DC Terms:
+PD                 43.998m       43.998m       43.998m       43.998m       43.998m
+PS                  0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Id                 19.999m       19.999m       19.999m       19.999m       19.999m
+
+Condition:
+State                  HOT           HOT           HOT           HOT           HOT
+
+Device Variables:
+area                1.000         1.000         1.000         1.000         1.000 
+ic                  0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:           LED7.D        LED8.D        LED9.D       LED10.D       LED11.D
+
+Capacitance Terms:
+CAP                76.085p       76.085p       76.085p       76.085p       76.085p
+
+Current Terms:
+ID                 19.999m       19.999m       19.999m       19.999m       19.999m
+
+Resistance Terms:
+REQ                 1.293         1.293         1.293         1.293         1.293 
+
+Voltage Terms:
+VD                  2.200         2.200         2.200         2.200         2.200 
+
+Power DC Terms:
+PD                 43.998m       43.998m       43.998m       43.998m       43.998m
+PS                  0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Id                 19.999m       19.999m       19.999m       19.999m       19.999m
+
+Condition:
+State                  HOT           HOT           HOT           HOT           HOT
+
+Device Variables:
+area                1.000         1.000         1.000         1.000         1.000 
+ic                  0.000         0.000         0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2            R3            R4            R5
+V                 -299.986m     -299.986m     -299.986m     -299.986m     -299.986m
+Power DC Terms:
+PD                   5.999m        5.999m        5.999m        5.999m        5.999m
+
+DC Pin Currents:
+Ir                 -19.999m      -19.999m      -19.999m      -19.999m      -19.999m
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:                R6            R7            R8            R9           R10
+V                 -299.986m     -299.986m     -299.986m     -299.986m     -299.986m
+Power DC Terms:
+PD                   5.999m        5.999m        5.999m        5.999m        5.999m
+
+DC Pin Currents:
+Ir                 -19.999m      -19.999m      -19.999m      -19.999m      -19.999m
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1        LED2.V        LED3.V        LED4.V        LED5.V
+V                   2.500         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PG                499.977m        0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+ISource          -199.991m       19.999m       19.999m       19.999m       19.999m
+
+
+Instance:           LED6.V        LED7.V        LED8.V        LED9.V       LED10.V
+V                   0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PG                  0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+ISource            19.999m       19.999m       19.999m       19.999m       19.999m
+
+
+Instance:          LED11.V
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource            19.999m
+
+
