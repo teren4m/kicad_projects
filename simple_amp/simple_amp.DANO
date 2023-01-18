@@ -1,0 +1,521 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                         Dynamic AC of simple_amp                         ***
+***                          1/18/2023 12:33:12 AM                           ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+AC Voltages at Frequency=1000 (Mag, Degrees)
+============================================
+Node               Voltage  Node               Voltage 
+1                        0  2            3.585m,88.92° 
+-        4.664m,-225.935m°  4          10.669,179.774° 
++        3.119m,-226.058m°  6                        0 
+IN               1,2.054n°  OUT         9.999,179.774° 
+9          10.492,179.774°  10         10.423,179.774° 
+11         10.669,179.774°  12         10.577,179.774° 
+13                       0  14                       0 
+15                       0  16                       0 
+17         10.631,179.774° 
+
+
+AC values for Diode (Mag, Degrees)
+==================================
+Instance:                    X1.D5                 X1.D3                 X1.D4
+
+Power AC Terms:
+PD                          0.001f       56.949p,0.025f°       56.965p,0.025f°
+PS                               0                     0                     0
+
+AC Pin Currents:
+Id               1.544f,-225.685m°      10.672p,179.774°    10.674p,-225.934m°
+
+Device Variables:
+area                        1.000                 1.000                 1.000 
+ic                          0.000                 0.000                 0.000 
+
+
+Instance:                    X1.D1                 X1.D2
+
+Power AC Terms:
+PD                          2.478p                2.478p
+PS                               0                     0
+
+AC Pin Currents:
+Id                 2.226p,179.774°     2.226p,-225.777m°
+
+Device Variables:
+area                        1.000                 1.000 
+ic                          0.000                 0.000 
+
+
+
+AC values for Bipolar Junction Transistors PNP (Mag, Degrees)
+=============================================================
+Instance:                       Q4                    Q5
+Using model:                2N5401                2N5401
+
+Power AC Terms:
+PG                               0                     0
+PD                               0                     0
+PS                               0                     0
+
+AC Pin Currents:
+Ib                               0                     0
+Ic                               0                     0
+Ie                               0                     0
+Is                               0                     0
+
+Device Variables:
+area                        1.000                 1.000 
+vbe                         0.000                 0.000 
+vce                         0.000                 0.000 
+
+
+
+AC values for Mextram 504 NPN TN_504 (Mag, Degrees)
+===================================================
+Instance:                       Q1                    Q6
+Using model:                2N3904                2N5551
+
+Beta Terms:
+beta                      167.615               143.943 
+BetaDC                    215.054               148.650 
+
+Capacitance Terms:
+Cb1b2                     232.856f              102.002f
+Cb1b2x                      1.283f                0.248f
+Cb1b2y                      0.001f            1.096E-019
+Cb1b2z                     -0.001f           -5.667E-020
+Cbc                        40.021f               56.407f
+Cbcex                      14.197f               20.135f
+Cbcx                      260.408f              103.192f
+Cbcy                        5.306f                5.861f
+Cbcz                       -4.041f               -3.987f
+Cbe                         1.334p              614.133f
+Cbex                      918.575f              411.949f
+Cbey                        0.409f                0.123f
+Cbez                       -0.300f               -0.063f
+
+Frequency Terms:
+fT                         10.723G                7.840G
+
+Conductance Terms:
+gm                         97.174m               34.718m
+gmu                         3.946u                7.649f
+gmuex                       0.000                 0.000 
+gmux                      -47.296n           -1.181E-027
+gmuy                       -6.473u                8.404f
+gmuz                       10.394u               -0.741f
+gout                       25.188u               10.396u
+gpix                      671.810u              241.193u
+gpiy                        0.000                 0.000 
+gpiz                        0.000                 0.000 
+grbvx                      25.259u                7.143u
+grbvy                     374.506n              144.505n
+grbvz                    -274.299n              -74.861n
+grcvy                       6.556m                6.556m
+grcvz                      -6.556m               -6.556m
+gx                         98.339m               34.860m
+gy                        -83.345u              -24.878u
+gz                         61.784u               14.443u
+
+Current Terms:
+Iavl                        4.894u                0.919f
+Ib                         12.500u                6.249u
+Ib1                        17.358u                6.228u
+Ib1b2                      12.500u                6.249u
+Ib2                        35.303n               21.146n
+Ib3                        -0.025f               -0.025f
+Ic                          2.688m              928.892u
+Ic1c2                       2.688m              928.892u
+Iex                        -0.002f               -0.002f
+In                          2.683m              928.892u
+Iqs                        12.614m                4.467m
+IRBC                       12.500u                6.249u
+IRCBLI                      0.000                 0.000 
+IRCBLX                      0.000                 0.000 
+IRCC                        2.688m              928.892u
+IRE                         2.701m              935.141u
+Izteb                       0.000                 0.000 
+
+Power Terms:
+Pdiss                      31.441m                2.088m
+
+Charge Terms:
+Qb1b2                       0.038f                0.008f
+Qbc                         6.843f                2.661f
+Qbe                        13.678f                5.318f
+Qe                          7.543f                2.706f
+Qepi                        0.178f                0.219f
+Qex                         0.000                 0.000 
+Qtc                       -13.995f               -2.368f
+Qte                        51.913f               49.168f
+Qtex                     -182.523f              -32.498f
+
+Resistance Terms:
+RB                         35.991                35.566 
+RBC                        23.096                23.096 
+Rbv                        12.895                12.470 
+RCBLI                       0.000                 0.000 
+RCBLX                       0.000                 0.000 
+RCC                        12.162                12.162 
+RE                          5.000                 5.000 
+
+Noise Terms:
+SCbe                       70.765f               67.297f
+Sgpi                        0.000                 0.000 
+SIb1                        0.000                 0.000 
+SQte                       34.620f               32.784f
+
+TK                        300.150               300.150 
+
+Voltage Terms:
+Vb1c1                     -10.807                -1.414 
+Vb1c4                     -10.807                -1.414 
+Vb2c1                     -10.807                -1.414 
+Vb2c2                     -10.397                -1.272 
+Vb2c2star                 616.734m              594.606m
+Vb2e1                     839.227m              812.715m
+Vc3c4                       0.000                 0.000 
+Vc4c1                       0.000                 0.000 
+Ve1e                       13.503m                4.676m
+
+XCbcex                     24.173f               34.285f
+Xgmuex                      0.000                 0.000 
+XIex                       -0.003f               -0.003f
+XiWepi                      6.068m                7.651m
+XQex                        0.000                 0.000 
+XQtex                    -310.775f              -55.329f
+
+
+
+AC values for Mextram 504 PNP TP_504 (Mag, Degrees)
+===================================================
+Instance:                       Q2
+Using model:                2N3906
+
+Beta Terms:
+beta                      144.810 
+BetaDC                    154.613 
+
+Capacitance Terms:
+Cb1b2                     229.911f
+Cb1b2x                      1.738f
+Cb1b2y                      0.001f
+Cb1b2z                     -0.001f
+Cbc                        39.983f
+Cbcex                      14.183f
+Cbcx                      256.794f
+Cbcy                        5.313f
+Cbcz                       -4.050f
+Cbe                         1.318p
+Cbex                      907.260f
+Cbey                        0.406f
+Cbez                       -0.298f
+
+Frequency Terms:
+fT                         10.712G
+
+Conductance Terms:
+gm                         95.936m
+gmu                        17.399n
+gmuex                       0.000 
+gmux                     -365.836f
+gmuy                       -5.491n
+gmuz                       22.873n
+gout                       21.058u
+gpix                      662.559u
+gpiy                        0.000 
+gpiz                        0.000 
+grbvx                      34.363u
+grbvy                     516.673n
+grbvz                    -379.176n
+grcvy                       6.556m
+grcvz                      -6.556m
+gx                         97.168m
+gy                        -82.747u
+gz                         61.440u
+
+Current Terms:
+Iavl                       13.621n
+Ib                         17.140u
+Ib1                        17.119u
+Ib1b2                      17.140u
+Ib2                        35.059n
+Ib3                        -0.025f
+Ic                          2.650m
+Ic1c2                       2.650m
+Iex                        -0.002f
+In                          2.650m
+Iqs                        12.671m
+IRBC                       17.140u
+IRCBLI                      0.000 
+IRCBLX                      0.000 
+IRCC                        2.650m
+IRE                         2.667m
+Izteb                       0.000 
+
+Power Terms:
+Pdiss                      31.186m
+
+Charge Terms:
+Qb1b2                       0.051f
+Qbc                         6.745f
+Qbe                        13.483f
+Qe                          7.439f
+Qepi                        0.173f
+Qex                         0.000 
+Qtc                       -14.105f
+Qte                        51.875f
+Qtex                     -183.528f
+
+Resistance Terms:
+RB                         35.990 
+RBC                        23.096 
+Rbv                        12.894 
+RCBLI                       0.000 
+RCBLX                       0.000 
+RCC                        12.162 
+RE                          5.000 
+
+Noise Terms:
+SCbe                       70.727f
+Sgpi                        0.000 
+SIb1                        0.000 
+SQte                       34.599f
+
+TK                        300.150 
+
+Voltage Terms:
+Vb1c1                     -10.878 
+Vb1c4                     -10.878 
+Vb2c1                     -10.878 
+Vb2c2                     -10.474 
+Vb2c2star                 615.645m
+Vb2e1                     838.868m
+Vc3c4                       0.000 
+Vc4c1                       0.000 
+Ve1e                       13.336m
+
+XCbcex                     24.150f
+Xgmuex                      0.000 
+XIex                       -0.003f
+XiWepi                      5.911m
+XQex                        0.000 
+XQtex                    -312.485f
+
+
+
+AC values for Jfet PJF (Mag, Degrees)
+=====================================
+Instance:                    X1.J1                 X1.J2
+
+Power AC Terms:
+PD                 0.027f,-3.313f°       0.014f,-3.099f°
+PS                               0                     0
+
+AC Pin Currents:
+Ig                  8.511f,122.25°      5.934f,-143.091°
+Id                  1.018u,89.134°       1.015u,-91.293°
+Is                 1.018u,-90.866°        1.015u,88.707°
+
+Device Variables:
+area                        1.000                 1.000 
+vds                         0.000                 0.000 
+vgs                         0.000                 0.000 
+
+
+
+AC values for Resistor (Mag, Degrees)
+=====================================
+Instance:                    X1.Rc1                X1.Rc2                X1.Re1
+
+Power AC Terms:
+PD                916.548p,-0.101f°              910.481p              518.297f
+
+AC Pin Currents:
+Ir                   1.018u,89.123°       1.015u,-91.304°        1.018u,89.134°
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                    X1.Re2                 X1.Re                 X1.Rp
+
+Power AC Terms:
+PD                         514.864f               17.636p      10.996p,-0.033f°
+
+AC Pin Currents:
+Ir                  1.015u,-91.293°       8.293n,154.894°      14.242n,179.774°
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                     X1.R2                X1.Ro2             X1.ROUTAC
+
+Power AC Terms:
+PD                          47.049p         2.326,0.043f°              123.887u
+
+AC Pin Currents:
+Ir               30.675n,-225.663m°     431.375m,179.774°       2.226m,179.774°
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                     V3.RS                    R2                    R3
+
+Power AC Terms:
+PD                          49.994f        49.994u,0.03f°      49.993m,-0.031f°
+
+AC Pin Currents:
+Ir                  9.999u,179.795°       9.999u,179.795°     9.999m,-225.939m°
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                        R4                    R5                    R8
+
+Power AC Terms:
+PD                           4.866u               10.875u                     0
+
+AC Pin Currents:
+Ir                  3.119m,179.774°     4.664m,-225.935m°                     0
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                        R9                   R10                   R11
+
+Power AC Terms:
+PD                                0      968.17n,-0.049f°     117.578n,-0.025f°
+
+AC Pin Currents:
+Ir                                0      13.915u,179.775°        6.26u,179.774°
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                       R13                   R14                   R16
+
+Power AC Terms:
+PD                 897.563u,0.027f°        1.666m,0.029f°       5.696m,-0.034f°
+
+AC Pin Currents:
+Ir                4.237m,-225.987m°       5.772m,179.774°     1.067m,-225.934m°
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+Instance:                       R17                   R18                   R19
+
+Power AC Terms:
+PD                           5.508m       4.999u,-0.038f°              247.775n
+
+AC Pin Currents:
+Ir                   1.05m,179.774°       9.999u,179.795°     2.226m,-225.777m°
+
+Device Variables:
+tc1                          0.000                 0.000                 0.000 
+tc2                          0.000                 0.000                 0.000 
+
+
+
+AC values for Capacitor (Mag, Degrees)
+======================================
+Instance:                     X1.C1                 X1.Ce                 X1.C3
+
+Power AC Terms:
+PS                    351.606f,-90°       5.683E-021,-90°           10.96u,-90°
+
+AC Pin Currents:
+Ic                195.613p,178.909°        0.003f,64.894°       2.033u,-90.226°
+
+Device Variables:
+ic                           0.000                 0.000                 0.000 
+
+
+
+AC values for Sine Source (Mag, Degrees)
+========================================
+Instance:                        V3
+Using model:                   1MHZ
+
+Power AC Terms:
+PG                     5u,205.397m°
+
+AC Pin Currents:
+ISource             9.999u,179.795°
+
+
+
+AC values for SPICE Poly (Mag, Degrees)
+=======================================
+Instance:                    X1.I3                 X1.V2                 X1.V1
+
+Power AC Terms:
+PG                   169.815u,180°       4.332u,179.947°                4.955p
+
+AC Pin Currents:
+ISource           31.493u,179.774°      2.226m,-173.37m°     4.452p,-225.777m°
+
+
+Instance:                    X1.I1                 X1.I2
+
+Power AC Terms:
+PG                15.522f,-88.932°       3.118n,-89.135°
+
+AC Pin Currents:
+ISource             10.12p,88.707°       2.033u,-91.091°
+
+
+
+AC values for SPICE Source (Mag, Degrees)
+=========================================
+Instance:                       V1                X1.IEE                X1.VS1
+
+Power AC Terms:
+PG                               0                     0                     0
+
+AC Pin Currents:
+ISource          3.119m,-226.058m°                     0    30.675n,-225.663m°
+
+
+Instance:                    X1.VC                 X1.VE                X1.VLP
+
+Power AC Terms:
+PG                               0                     0                     0
+
+AC Pin Currents:
+ISource         10.672p,-225.934m°      10.674p,179.774°       2.226p,179.774°
+
+
+Instance:                   X1.VLN                X1.VS2                    V2
+
+Power AC Terms:
+PG                               0                     0                     0
+
+AC Pin Currents:
+ISource          2.226p,-225.777m°       2.226m,179.774°       4.664m,179.774°
+
+
