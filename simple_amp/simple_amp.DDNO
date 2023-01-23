@@ -3,7 +3,7 @@
 ***                                                                          ***
 ***                                                                          ***
 ***                         Dynamic DC of simple_amp                         ***
-***                          1/18/2023 12:56:24 AM                           ***
+***                           1/18/2023 4:16:50 PM                           ***
 ********************************************************************************
 
 *****************************************************
@@ -15,13 +15,14 @@ Temperature=27
 DC Operating Point Voltages
 ===========================
 Node         Voltage  Node         Voltage  Node         Voltage 
-1            12.000   2             3.013m  -           -11.998  
-4            33.222m  +            11.998   6           -12.000  
-IN           30.129p  OUT         127.875p  9           844.481m 
-10           52.281m  11         -827.151m  12          -34.890m 
+1            12.000   2             3.013m  -           -11.861  
+4             3.093m  +            11.861   6           -12.000  
+IN            0.000   OUT           4.943m  9             2.680  
+10            1.734   11           -2.670   12           -1.724  
 13          -17.347m  14           -0.986f  15           15.335m 
-16           15.335m  17         -269.940m  18            8.695m 
-19           33.222m  20          122.988p  21          133.184p 
+16           15.335m  17           -2.259   18            3.013m 
+19            3.093m  20         -950.673m  21         -152.436m 
+22          960.679m  23          162.408m  24            0.000  
 
 
 Operating Point for Devices of Type Diode
@@ -32,20 +33,20 @@ Capacitance Terms:
 CAP                  0.000          0.000          0.000          0.000 
 
 Current Terms:
-ID                 -24.006p        -9.875p        -9.941p       -20.010p
+ID                 -23.731p        -9.767p        -9.774p       -20.010p
 
 Resistance Terms:
 REQ                  1.000T         1.000T         1.000T         1.000T
 
 Voltage Terms:
-VD                 -23.996         -9.865         -9.931        -20.000 
+VD                 -23.721         -9.757         -9.764        -20.000 
 
 Power DC Terms:
-PD                 576.032p        97.409p        98.725p       400.199p
+PD                 562.927p        95.305p        95.427p       400.200p
 PS                   0.000          0.000          0.000          0.000 
 
 DC Pin Currents:
-Id                 -24.006p        -9.875p        -9.941p       -20.010p
+Id                 -23.731p        -9.767p        -9.774p       -20.010p
 
 Condition:
 State                   HOT            HOT            HOT            HOT
@@ -70,7 +71,7 @@ Voltage Terms:
 VD                 -20.000 
 
 Power DC Terms:
-PD                 400.201p
+PD                 400.200p
 PS                   0.000 
 
 DC Pin Currents:
@@ -87,111 +88,111 @@ ic                   0.000
 
 Operating Point for Devices of Type Bipolar Junction Transistors NPN
 ====================================================================
-Instance:                Q8
-Using model:       BD139_16
+Instance:                Q8             Q9
+Using model:       BD139_16       BD139_16
 
 Beta Terms:
-BETADC              -1.137 
-BETAAC              35.689m
+BETADC             135.418        131.943 
+BETAAC             137.149        140.946 
 
 Capacitance Terms:
-CPI                  2.074p
-CMU                  1.215p
-CBX                  0.000 
-CJS                  0.000 
+CPI                  3.346n         2.133n
+CMU                  1.270p         1.314p
+CBX                  0.000          0.000 
+CJS                  0.000          0.000 
 
 Conductance Terms:
-GM                   3.130p
+GM                   2.713          1.728 
 
 Current Terms:
-IB                -117.781p
-IC                 133.869p
+IB                 577.140u       363.794u
+IC                  78.155m        48.000m
 
 Resistance Terms:
-RPI                 11.401G
-RX                   0.000 
-RO                 806.330G
+RPI                 50.558         81.587 
+RX                   0.000          0.000 
+RO                   1.419K         2.294K
 
 Voltage Terms:
-VBE                 52.281m
-VBC                -11.946 
-VCE                 11.998 
+VBE                798.271m       773.586m
+VBC                -10.900        -10.126 
+VCE                 11.698         10.900 
 
 Frequency Terms:
-FT                 151.489m
+FT               128.996MEG     128.834MEG
 
 Power DC Terms:
-PD                   1.600n
-PS                   0.000 
+PD                 914.729m       523.475m
+PS                   0.000          0.000 
 
 DC Pin Currents:
-Ib                -117.781p
-Ic                 133.869p
-Ie                 -16.088p
-Is                   0.000 
+Ib                 577.140u       363.794u
+Ic                  78.155m        48.000m
+Ie                 -78.732m       -48.364m
+Is                   0.000          0.000 
 
 Condition:
-State                   OFF
+State                   LIN            LIN
 
 Device Variables:
-area                 1.000 
-vbe                  0.000 
-vce                  0.000 
+area                 1.000          1.000 
+vbe                  0.000          0.000 
+vce                  0.000          0.000 
 
 
 
 Operating Point for Devices of Type Bipolar Junction Transistors PNP
 ====================================================================
-Instance:                Q4             Q5             Q7
-Using model:         2N5401         2N5401       BD140_16
+Instance:                Q4             Q5             Q7            Q10
+Using model:         2N5401         2N5401       BD140_16       BD140_16
 
 Beta Terms:
-BETADC              -2.912         -2.000         -1.124 
-BETAAC             498.311m       172.266m        27.021m
+BETADC              -2.912         -2.000        135.429        131.953 
+BETAAC             498.311m       172.266m       137.171        140.960 
 
 Capacitance Terms:
-CPI                  0.000          0.000          2.048p
-CMU                  0.000          0.000          1.214p
-CBX                  0.000          0.000          0.000 
-CJS                  0.000          0.000          0.000 
+CPI                  0.000          0.000          3.344n         2.132n
+CMU                  0.000          0.000          1.269p         1.313p
+CBX                  0.000          0.000          0.000          0.000 
+CJS                  0.000          0.000          0.000          0.000 
 
 Conductance Terms:
-GM                   5.018f         1.729f         1.541p
+GM                   5.018f         1.729f         2.711          1.727 
 
 Current Terms:
-IB                 -17.241f       -15.379f      -119.195p
-IC                  50.207f        30.759f       134.005p
+IB                 -17.241f       -15.379f       576.780u       363.718u
+IC                  50.207f        30.759f        78.113m        47.994m
 
 Resistance Terms:
-RPI                 99.305T        99.615T        17.531G
-RX                   0.000          0.000          0.000 
-RO                 998.027G       997.868G       806.457G
+RPI                 99.305T        99.615T        50.591         81.604 
+RX                   0.000          0.000          0.000          0.000 
+RO                 998.027G       997.868G         1.420K         2.294K
 
 Voltage Terms:
-VBE                -15.335m       956.778f       -34.890m
-VBC                 17.347m        15.335m        11.963 
-VCE                -32.681m       -15.335m       -11.998 
+VBE                -15.335m       956.778f      -798.237m      -773.578m
+VBC                 17.347m        15.335m        10.910         10.136 
+VCE                -32.681m       -15.335m       -11.708        -10.910 
 
 Frequency Terms:
-FT                  79.863K        27.523K        75.190m
+FT                  79.863K        27.523K     129.014MEG     128.851MEG
 
 Power DC Terms:
-PD                   1.376f         0.472f         1.604n
-PS                   0.000          0.000          0.000 
+PD                   1.376f         0.472f       915.017m       523.890m
+PS                   0.000          0.000          0.000          0.000 
 
 DC Pin Currents:
-Ib                  17.241f        15.379f       119.195p
-Ic                 -50.207f       -30.759f      -134.005p
-Ie                  32.965f        15.379f        14.809p
-Is                   0.000          0.000          0.000 
+Ib                  17.241f        15.379f      -576.780u      -363.718u
+Ic                 -50.207f       -30.759f       -78.113m       -47.994m
+Ie                  32.965f        15.379f        78.690m        48.358m
+Is                   0.000          0.000          0.000          0.000 
 
 Condition:
-State                   OFF            OFF            OFF
+State                   OFF            OFF            LIN            LIN
 
 Device Variables:
-area                 1.000          1.000          1.000 
-vbe                  0.000          0.000          0.000 
-vce                  0.000          0.000          0.000 
+area                 1.000          1.000          1.000          1.000 
+vbe                  0.000          0.000          0.000          0.000 
+vce                  0.000          0.000          0.000          0.000 
 
 
 
@@ -201,114 +202,114 @@ Instance:                Q1             Q6
 Using model:         2N3904         2N5551
 
 Beta Terms:
-beta               360.082        138.677 
-BetaDC             506.501        117.992 
+beta                86.953         38.819 
+BetaDC             124.455         40.132 
 
 Capacitance Terms:
-Cb1b2               51.030f        12.878f
-Cb1b2x               0.015f     1.115E-022
-Cb1b2y           1.354E-020     5.475E-028
-Cb1b2z          -1.109E-020    -2.868E-028
-Cbc                 39.542f        58.544f
-Cbcex               14.132f        20.968f
-Cbcx                39.091f         0.005f
-Cbcy                 7.260f         5.159f
-Cbcz                -6.005f        -3.285f
-Cbe                339.881f       107.305f
-Cbex               218.111f        64.385f
-Cbey                 0.097f     6.902E-021
-Cbez                -0.080f    -3.615E-021
+Cb1b2                1.088p        11.106f
+Cb1b2x              34.121f     8.481E-025
+Cb1b2y               0.066f     3.902E-032
+Cb1b2z              -0.054f    -2.928E-032
+Cbc                 51.207f        44.943f
+Cbcex               14.582f        16.097f
+Cbcx                 1.262p     1.505E-020
+Cbcy                45.317f         6.297f
+Cbcz               -38.720f        -4.859f
+Cbe                  8.155p        92.549f
+Cbex                 4.256p        55.529f
+Cbey                 6.737f     3.627E-023
+Cbez                -5.484f    -2.721E-023
 
 Frequency Terms:
-fT                   6.667G       2.032MEG
+fT                   6.045G         9.869K
 
 Conductance Terms:
-gm                  16.360m         2.117u
-gmu                  1.200u         0.001f
+gm                 322.358m         8.526n
+gmu                  2.041u         2.001f
 gmuex                0.000          0.000 
-gmux                -4.073n    -2.403E-036
-gmuy               -22.448u        -6.496f
-gmuz                23.631u         6.496f
-gout                 5.000u       758.470p
-gpix               100.272u        15.268n
+gmux                -5.223n    -9.215E-028
+gmuy              -402.657n       -29.709n
+gmuz                 2.432u        29.709n
+gout               193.774u         2.628p
+gpix                 3.725m       219.664p
 gpiy                 0.000          0.000 
 gpiz                 0.000          0.000 
-grbvx              770.524n       221.540p
-grbvy               41.882n        13.499p
-grbvz              -34.318n        -7.071p
+grbvx              544.281u         2.590p
+grbvy                9.087u       267.920f
+grbvz               -7.433u      -201.035f
 grcvy                6.556m         6.556m
 grcvz               -6.556m        -6.556m
-gx                  16.363m         2.118u
-gy                 -21.430u        -1.750n
-gz                  17.614u       991.270p
+gx                 392.265m         8.528n
+gy                  -1.417m       -10.836p
+gz                   1.184m         8.210p
 
 Current Terms:
-Iavl                 1.741u     5.496E-020
-Ib                 858.822n       470.026p
-Ib1                  2.587u       319.198p
-Ib1b2              858.822n       470.026p
-Ib2                 13.628n       151.385p
+Iavl                 1.591u         1.034f
+Ib                  94.796u         5.685p
+Ib1                 96.303u         1.146p
+Ib1b2               94.796u         5.685p
+Ib2                 83.154n         9.068p
 Ib3                 -0.025f        -0.025f
-Ic                 434.995u        55.459n
-Ic1c2              434.995u        55.459n
+Ic                  11.798m       228.150p
+Ic1c2               11.798m       228.150p
 Iex                 -0.002f        -0.002f
-In                 433.253u        55.458n
-Iqs                 12.834m         4.055m
-IRBC               858.822n       470.026p
+In                  11.796m       223.209p
+Iqs                 11.229m         7.661m
+IRBC                94.796u         5.685p
 IRCBLI               0.000          0.000 
 IRCBLX               0.000          0.000 
-IRCC               434.995u        55.459n
-IRE                435.853u        55.929n
+IRCC                11.798m       228.150p
+IRE                 11.893m       233.835p
 Izteb                0.000          0.000 
 
 Power Terms:
-Pdiss                5.197m        92.969n
+Pdiss              119.557m         1.222n
 
 Charge Terms:
-Qb1b2                0.001f     8.808E-023
-Qbc                  0.999f     1.202E-019
-Qbe                  1.998f     2.403E-019
-Qe                   1.124f     1.387E-019
-Qepi                 0.020f     1.036E-020
+Qb1b2                1.054f     1.030E-024
+Qbc                 37.866f     3.848E-022
+Qbe                 73.529f     7.696E-022
+Qe                  41.850f     4.980E-022
+Qepi                10.434f     1.865E-023
 Qex                  0.000          0.000 
-Qtc                -16.250f        -2.354f
-Qte                 46.925f        28.762f
-Qtex              -187.359f       -26.345f
+Qtc                 -3.992f        -8.455f
+Qte                 56.799f        20.095f
+Qtex              -157.098f       -94.637f
 
 Resistance Terms:
-RB                  37.120         37.647 
+RB                  33.186         39.409 
 RBC                 23.096         23.096 
-Rbv                 14.025         14.552 
+Rbv                 10.090         16.313 
 RCBLI                0.000          0.000 
 RCBLX                0.000          0.000 
 RCC                 12.162         12.162 
 RE                   5.000          5.000 
 
 Noise Terms:
-SCbe                64.314f        42.913f
+SCbe                76.241f        37.019f
 Sgpi                 0.000          0.000 
 SIb1                 0.000          0.000 
-SQte                31.284f        19.175f
+SQte                37.940f        13.396f
 
 TK                 300.150        300.150 
 
 Voltage Terms:
-Vb1c1              -11.148         -1.114 
-Vb1c4              -11.148         -1.114 
-Vb2c1              -11.148         -1.114 
-Vb2c2              -11.082         -1.114 
-Vb2c2star          513.205m        85.436m
-Vb2e1              789.989m       557.210m
+Vb1c1               -9.039         -4.939 
+Vb1c4               -9.039         -4.939 
+Vb2c1               -9.040         -4.939 
+Vb2c2               -7.240         -4.939 
+Vb2c2star          760.240m      -220.109m
+Vb2e1              883.544m       411.606m
 Vc3c4                0.000          0.000 
-Vc4c1                0.000          0.000 
-Ve1e                 2.179m       279.647n
+Vc4c1               -1.776f         0.888f
+Ve1e                59.463m         1.169n
 
-XCbcex              24.063f        35.703f
-Xgmuex               0.000          0.000 
+XCbcex              24.830f        27.408f
+Xgmuex          -3.004E-035         0.000 
 XIex                -0.003f        -0.003f
-XiWepi             715.778u       368.863n
+XiWepi             112.422m       663.926p
 XQex                 0.000          0.000 
-XQtex             -319.016f       -44.858f
+XQtex             -267.438f      -161.139f
 
 
 
@@ -318,114 +319,114 @@ Instance:                Q2
 Using model:         2N3906
 
 Beta Terms:
-beta               162.999 
-BetaDC             167.176 
+beta                86.588 
+BetaDC             122.422 
 
 Capacitance Terms:
-Cb1b2               51.021f
-Cb1b2x               0.046f
-Cb1b2y           4.088E-020
-Cb1b2z          -3.351E-020
-Cbc                 39.535f
-Cbcex               14.129f
-Cbcx                39.078f
-Cbcy                 7.268f
-Cbcz                -6.013f
-Cbe                339.793f
-Cbex               218.077f
-Cbey                 0.098f
-Cbez                -0.080f
+Cb1b2                1.087p
+Cb1b2x              34.668f
+Cb1b2y               0.067f
+Cb1b2z              -0.054f
+Cbc                 51.189f
+Cbcex               14.579f
+Cbcx                 1.262p
+Cbcy                45.193f
+Cbcz               -38.614f
+Cbe                  8.146p
+Cbex                 4.254p
+Cbey                 6.725f
+Cbez                -5.474f
 
 Frequency Terms:
-fT                   6.645G
+fT                   6.052G
 
 Conductance Terms:
-gm                  16.306m
-gmu                  8.857n
+gm                 322.423m
+gmu                  1.384n
 gmuex                0.000 
-gmux               -89.972f
-gmuy               -91.849n
-gmuz               100.653n
-gout                 3.813u
-gpix               100.255u
+gmux                -0.921f
+gmuy                11.805p
+gmuz                 1.373n
+gout               191.866u
+gpix                 3.724m
 gpiy                 0.000 
 gpiz                 0.000 
-grbvx                2.325u
-grbvy              126.554n
-grbvz             -103.730n
+grbvx              553.104u
+grbvy                9.224u
+grbvz               -7.544u
 grcvy                6.556m
 grcvz               -6.556m
-gx                  16.363m
-gy                 -21.457u
-gz                  17.640u
+gx                 392.234m
+gy                  -1.415m
+gz                   1.182m
 
 Current Terms:
-Iavl                 8.183n
-Ib                   2.592u
-Ib1                  2.586u
-Ib1b2                2.592u
-Ib2                 13.627n
+Iavl               667.694p
+Ib                  96.350u
+Ib1                 96.268u
+Ib1b2               96.350u
+Ib2                 83.138n
 Ib3                 -0.025f
-Ic                 433.262u
-Ic1c2              433.262u
+Ic                  11.795m
+Ic1c2               11.795m
 Iex                 -0.002f
-In                 433.254u
-Iqs                 12.848m
-IRBC                 2.592u
+In                  11.795m
+Iqs                 11.237m
+IRBC                96.350u
 IRCBLI               0.000 
 IRCBLX               0.000 
-IRCC               433.262u
-IRE                435.853u
+IRCC                11.795m
+IRE                 11.892m
 Izteb                0.000 
 
 Power Terms:
-Pdiss                5.185m
+Pdiss              119.652m
 
 Charge Terms:
-Qb1b2                0.002f
-Qbc                  0.999f
-Qbe                  1.997f
-Qe                   1.124f
-Qepi                 0.020f
+Qb1b2                1.071f
+Qbc                 37.842f
+Qbe                 73.490f
+Qe                  41.834f
+Qepi                10.396f
 Qex                  0.000 
-Qtc                -16.273f
-Qte                 46.925f
-Qtex              -187.604f
+Qtc                 -4.026f
+Qte                 56.798f
+Qtex              -157.246f
 
 Resistance Terms:
-RB                  37.114 
+RB                  33.184 
 RBC                 23.096 
-Rbv                 14.018 
+Rbv                 10.089 
 RCBLI                0.000 
 RCBLX                0.000 
 RCC                 12.162 
 RE                   5.000 
 
 Noise Terms:
-SCbe                64.316f
+SCbe                76.242f
 Sgpi                 0.000 
 SIb1                 0.000 
-SQte                31.285f
+SQte                37.940f
 
 TK                 300.150 
 
 Voltage Terms:
-Vb1c1              -11.165 
-Vb1c4              -11.165 
-Vb2c1              -11.166 
-Vb2c2              -11.099 
-Vb2c2star          512.958m
-Vb2e1              789.985m
+Vb1c1               -9.049 
+Vb1c4               -9.049 
+Vb2c1               -9.050 
+Vb2c2               -7.251 
+Vb2c2star          760.140m
+Vb2e1              883.534m
 Vc3c4               -1.776f
-Vc4c1                1.776f
-Ve1e                 2.179m
+Vc4c1                0.000 
+Ve1e                59.458m
 
-XCbcex              24.058f
-Xgmuex               0.000 
+XCbcex              24.825f
+Xgmuex          -3.001E-035
 XIex                -0.003f
-XiWepi             711.823u
+XiWepi             112.179m
 XQex                 0.000 
-XQtex             -319.433f
+XQtex             -267.687f
 
 
 
@@ -446,15 +447,15 @@ ID                -196.269u      -196.276u
 
 Voltage Terms:
 VGS                  1.308          1.305 
-VDS                -10.346        -10.346 
-VGD                 11.654         11.651 
+VDS                -10.208        -10.208 
+VGD                 11.517         11.513 
 
 Power DC Terms:
-PD                   2.031m         2.031m
+PD                   2.004m         2.004m
 PS                   0.000          0.000 
 
 DC Pin Currents:
-Ig                  80.462p        75.456p
+Ig                  80.325p        75.319p
 Id                -196.269u      -196.276u
 Is                 196.269u       196.276u
 
@@ -484,12 +485,12 @@ tc2                   0.000          0.000          0.000          0.000
 
 
 Instance:              X1.Re          X1.Rp          X1.R2         X1.Ro2
-V                    -1.305         23.996         -9.400u        33.222m
+V                    -1.305         23.721       -881.871n         3.117m
 Power DC Terms:
-PD                    3.320u         5.310m         0.884f        44.148u
+PD                    3.320u         5.189m         0.008f       388.572n
 
 DC Pin Currents:
-Ir                   -2.545u       221.293u       -94.002p         1.329m
+Ir                   -2.544u       218.761u        -8.819p       124.671u
 
 Device Variables:
 tc1                   0.000          0.000          0.000          0.000 
@@ -497,12 +498,12 @@ tc2                   0.000          0.000          0.000          0.000
 
 
 Instance:          X1.ROUTAC          V3.RS             R2             R3
-V                     1.510u        30.129p        30.209m      -127.875p
+V                     4.017n         0.000         80.325u        -4.943m
 Power DC Terms:
-PD                   45.629f         0.001f       912.583p     1.635E-022
+PD                3.226E-019         0.000          6.452f       244.364n
 
 DC Pin Currents:
-Ir                   30.209n        30.129n        30.209n        -1.279p
+Ir                   80.331p         0.000         80.325p       -49.433u
 
 Device Variables:
 tc1                   0.000          0.000          0.000          0.000 
@@ -510,12 +511,12 @@ tc2                   0.000          0.000          0.000          0.000
 
 
 Instance:                 R4             R5             R8             R9
-V                     2.162m         2.164m       956.778f         0.986f
+V                   139.480m       139.433m       956.778f         0.986f
 Power DC Terms:
-PD                    4.673u         4.684u     1.476E-026     2.944E-035
+PD                   19.455m        19.442m     1.476E-026     2.944E-035
 
 DC Pin Currents:
-Ir                    2.162m         2.164m        15.432f     2.987E-020
+Ir                  139.480m       139.433m        15.432f     2.987E-020
 
 Device Variables:
 tc1                   0.000          0.000          0.000          0.000 
@@ -523,12 +524,12 @@ tc2                   0.000          0.000          0.000          0.000
 
 
 Instance:                R10            R11            R13            R14
-V                    -1.114       -557.210m       -43.585m       -43.585m
+V                    -4.939       -411.606m        -1.729         -1.729 
 Power DC Terms:
-PD                    1.242m       620.967u        18.997u        18.997u
+PD                    4.066m       338.840u        19.937m        19.934m
 
 DC Pin Currents:
-Ir                   -1.114m        -1.114m      -435.853u      -435.853u
+Ir                 -823.213u      -823.213u       -11.529m       -11.528m
 
 Device Variables:
 tc1                   0.000          0.000          0.000          0.000 
@@ -536,44 +537,69 @@ tc2                   0.000          0.000          0.000          0.000
 
 
 Instance:                R16            R17            R18            R19
-V                   -11.171        -11.153          3.013m         0.000 
+V                    -9.190         -9.180      4.337E-019         0.000 
 Power DC Terms:
-PD                   12.478m        12.440m        90.773p         0.000 
+PD                    8.451m         8.427m     1.881E-042         0.000 
 
 DC Pin Currents:
-Ir                   -1.117m        -1.115m        30.129n         0.000 
+Ir                 -919.563u      -918.009u     4.337E-024         0.000 
 
 Device Variables:
 tc1                   0.000          0.000          0.000          0.000 
 tc2                   0.000          0.000          0.000          0.000 
 
 
-Instance:                R20            R21
-V                    -5.309p        -4.887p
+Instance:                R20            R21            R22            R23
+V                  -157.465m      -157.379m      -955.736m      -955.617m
 Power DC Terms:
-PD                8.541E-023     7.237E-023
+PD                   12.398m        12.384m        45.672m        45.660m
 
 DC Pin Currents:
-Ir                  -16.088p       -14.809p
+Ir                  -78.732m       -78.690m       -47.787m       -47.781m
 
 Device Variables:
-tc1                   0.000          0.000 
-tc2                   0.000          0.000 
+tc1                   0.000          0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000          0.000 
+
+
+Instance:                R24
+V                     0.000 
+Power DC Terms:
+PD                    0.000 
+
+DC Pin Currents:
+Ir                    0.000 
+
+Device Variables:
+tc1                   0.000 
+tc2                   0.000 
 
 
 
 Operating Point for Devices of Type Capacitor
 =============================================
-Instance:              X1.C1          X1.Ce          X1.C3
-V                    12.883u         1.305         33.233m
+Instance:              X1.C1          X1.Ce          X1.C3             C1
+V                    13.033u         1.305          3.094m         2.680 
 Power DC Terms:
-PS                    0.000          0.000          0.000 
+PS                    0.000          0.000          0.000          0.000 
 
 DC Pin Currents:
-Ic                    0.000          0.000          0.000 
+Ic                    0.000          0.000          0.000          0.000 
 
 Device Variables:
-ic                    0.000          0.000          0.000 
+ic                    0.000          0.000          0.000          0.000 
+
+
+Instance:                 C2
+V                    -2.670 
+Power DC Terms:
+PS                    0.000 
+
+DC Pin Currents:
+Ic                    0.000 
+
+Device Variables:
+ic                    0.000 
 
 
 
@@ -590,62 +616,62 @@ Operating Point for Devices of Type Sine Source
 ===============================================
 Instance:                 V3
 Using model:            1MHZ
-V                    30.129p
+V                     0.000 
 Power DC Terms:
 PG                    0.000 
 
 DC Pin Currents:
-ISource              30.129n
+ISource               0.000 
 
 
 
 Operating Point for Devices of Type SPICE Poly
 ==============================================
 Instance:             X1.I3          X1.V2          X1.V1          X1.I1
-V                   33.222m         1.272u        30.209u         9.400u
+V                    3.117m       -23.444u        80.331n       881.871n
 Power DC Terms:
-PG                  44.149u         3.276p     1.825E-021        69.363f
+PG                 388.572n       -59.655p     1.291E-026         6.507f
 
 DC Pin Currents:
-ISource             -1.329m        -2.575u        -0.060f        -7.379n
+ISource           -124.671u        -2.545u    -1.607E-019        -7.379n
 
 
 Instance:             X1.I2
-V                   -9.400u
+V                 -881.871n
 Power DC Terms:
-PG                 -68.480f
+PG                  -6.499f
 
 DC Pin Currents:
-ISource             -7.285n
+ISource             -7.370n
 
 
 
 Operating Point for Devices of Type SPICE Source
 ================================================
 Instance:                V1         X1.IEE         X1.VS1          X1.VC
-V                   12.000        -13.303          0.000          2.100 
+V                   12.000        -13.165          0.000          2.100 
 Power DC Terms:
-PG                  25.939m        -5.188m         0.000        -20.737p
+PG                   1.674         -5.135m         0.000        -20.512p
 
 DC Pin Currents:
-ISource             -2.162m      -390.000u       -94.002p         9.875p
+ISource           -139.480m      -390.000u        -8.819p         9.767p
 
 
 Instance:             X1.VE         X1.VLP         X1.VLN         X1.VS2
 V                    2.100         20.000         20.000          0.000 
 Power DC Terms:
-PG                 -20.876p       400.199p       400.201p         0.000 
+PG                 -20.525p       400.200p       400.200p         0.000 
 
 DC Pin Currents:
-ISource              9.941p       -20.010p       -20.010p        30.209n
+ISource              9.774p       -20.010p       -20.010p        80.331p
 
 
 Instance:                V2
 V                   12.000 
 Power DC Terms:
-PG                  25.970m
+PG                   1.673 
 
 DC Pin Currents:
-ISource             -2.164m
+ISource           -139.433m
 
 
