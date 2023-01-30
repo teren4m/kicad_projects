@@ -1,0 +1,241 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                    Dynamic DC of keyboard_fun_source                     ***
+***                          1/26/2023 12:20:43 AM                           ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             1.526   2             1.526   3             1.526  
+4             1.526   5             1.526   6             1.526  
+7             1.526   8             1.526   9             1.526  
+10            0.000   11            0.000   12            1.526  
+13            1.526   14            1.526   5V            2.500  
+16          973.938m  17          973.938m  18          973.938m 
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1             D2             D3             D4
+Using model:         1N4148         1N4148         1N4148         1N4148
+
+Capacitance Terms:
+CAP                 57.245p        57.245p        57.245p        57.245p
+
+Current Terms:
+ID                 324.646u       324.646u       324.646u       324.646u
+
+Resistance Terms:
+REQ                160.210        160.210        160.210        160.210 
+
+Voltage Terms:
+VD                 552.123m       552.123m       552.123m       552.123m
+
+Power DC Terms:
+PD                 179.245u       179.245u       179.245u       179.245u
+PS                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+Id                 324.646u       324.646u       324.646u       324.646u
+
+Condition:
+State                    ON             ON             ON             ON
+
+Device Variables:
+area                 1.000          1.000          1.000          1.000 
+ic                   0.000          0.000          0.000          0.000 
+
+
+Instance:                D5             D6             D7             D8
+Using model:         1N4148         1N4148         1N4148         1N4148
+
+Capacitance Terms:
+CAP                 57.245p        57.245p        57.245p        57.245p
+
+Current Terms:
+ID                 324.646u       324.646u       324.646u       324.646u
+
+Resistance Terms:
+REQ                160.210        160.210        160.210        160.210 
+
+Voltage Terms:
+VD                 552.123m       552.123m       552.123m       552.123m
+
+Power DC Terms:
+PD                 179.245u       179.245u       179.245u       179.245u
+PS                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+Id                 324.646u       324.646u       324.646u       324.646u
+
+Condition:
+State                    ON             ON             ON             ON
+
+Device Variables:
+area                 1.000          1.000          1.000          1.000 
+ic                   0.000          0.000          0.000          0.000 
+
+
+Instance:                D9
+Using model:         1N4148
+
+Capacitance Terms:
+CAP                 57.245p
+
+Current Terms:
+ID                 324.646u
+
+Resistance Terms:
+REQ                160.210 
+
+Voltage Terms:
+VD                 552.123m
+
+Power DC Terms:
+PD                 179.245u
+PS                   0.000 
+
+DC Pin Currents:
+Id                 324.646u
+
+Condition:
+State                    ON
+
+Device Variables:
+area                 1.000 
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:         SWITCH1.R1     SWITCH1.R2     SWITCH2.R1     SWITCH2.R2
+V                  -324.646n         1.526       -324.646n         1.526 
+Power DC Terms:
+PD                  105.395p         2.329p       105.395p         2.329p
+
+DC Pin Currents:
+Ir                 -324.646u         1.526p      -324.646u         1.526p
+
+Device Variables:
+tc1                   0.000          0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000          0.000 
+
+
+Instance:         SWITCH3.R1     SWITCH3.R2     SWITCH4.R1     SWITCH4.R2
+V                  -324.646n         1.526       -324.646n         1.526 
+Power DC Terms:
+PD                  105.395p         2.329p       105.395p         2.329p
+
+DC Pin Currents:
+Ir                 -324.646u         1.526p      -324.646u         1.526p
+
+Device Variables:
+tc1                   0.000          0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000          0.000 
+
+
+Instance:         SWITCH5.R1     SWITCH5.R2     SWITCH6.R1     SWITCH6.R2
+V                  -324.646n         1.526       -324.646n         1.526 
+Power DC Terms:
+PD                  105.395p         2.329p       105.395p         2.329p
+
+DC Pin Currents:
+Ir                 -324.646u         1.526p      -324.646u         1.526p
+
+Device Variables:
+tc1                   0.000          0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000          0.000 
+
+
+Instance:           METER8.R     SWITCH9.R1     SWITCH9.R2    SWITCH10.R1
+V                     0.000       -324.646n         1.526       -324.646n
+Power DC Terms:
+PD                    0.000        105.395p         2.329p       105.395p
+
+DC Pin Currents:
+Ir                    0.000       -324.646u         1.526p      -324.646u
+
+Device Variables:
+tc1                   0.000          0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000          0.000 
+
+
+Instance:        SWITCH10.R2    SWITCH11.R1    SWITCH11.R2             R1
+V                     1.526       -324.646n         1.526       -973.938m
+Power DC Terms:
+PD                    2.329p       105.395p         2.329p       948.556u
+
+DC Pin Currents:
+Ir                    1.526p      -324.646u         1.526p      -973.938u
+
+Device Variables:
+tc1                   0.000          0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000          0.000 
+
+
+Instance:                 R2             R3             R4             R5
+V                  -973.938m      -973.938m       973.938m       973.938m
+Power DC Terms:
+PD                  948.556u       948.556u       948.556u       948.556u
+
+DC Pin Currents:
+Ir                 -973.938u      -973.938u       973.938u       973.938u
+
+Device Variables:
+tc1                   0.000          0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000          0.000 
+
+
+Instance:                 R6     METER8.int     METER8.int     METER8.int
+V                   973.938m         0.000          0.000          0.000 
+Power DC Terms:
+PD                  948.556u         0.000          0.000          0.000 
+
+DC Pin Currents:
+Ir                  973.938u         0.000          0.000          0.000 
+
+Device Variables:
+tc1                   0.000          0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:        SWITCH1.V1     SWITCH2.V1     SWITCH3.V1     SWITCH4.V1
+V                    0.000          0.000          0.000          0.000 
+Power DC Terms:
+PG                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+ISource           -324.646u      -324.646u      -324.646u      -324.646u
+
+
+Instance:        SWITCH5.V1     SWITCH6.V1       METER8.V     SWITCH9.V1
+V                    0.000          0.000          0.000          0.000 
+Power DC Terms:
+PG                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+ISource           -324.646u      -324.646u         0.000       -324.646u
+
+
+Instance:       SWITCH10.V1    SWITCH11.V1             V1
+V                    0.000          0.000          2.500 
+Power DC Terms:
+PG                   0.000          0.000          7.305m
+
+DC Pin Currents:
+ISource           -324.646u      -324.646u        -2.922m
+
+

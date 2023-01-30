@@ -2,14 +2,14 @@
 ***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
 ***                                                                          ***
 ***                                                                          ***
-***                            DC Analysis of BMS                            ***
-***                          12/28/2022 10:46:34 AM                          ***
+***                           DC Analysis of BMS1                            ***
+***                           1/23/2023 8:32:34 PM                           ***
 ********************************************************************************
 Limits
 ======
 Variable 1 Method        Auto
 Variable 1 Name          V2
-Variable 1 Range         10,0,.5
+Variable 1 Range         4.5,0,.5
 Variable 2 Method        None
 Variable 2 Name          
 Variable 2 Range         
