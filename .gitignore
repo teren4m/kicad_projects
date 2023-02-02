@@ -5,3 +5,5 @@
 *.DDNO
 *.DNO
 fp-info-cache
+*.kicad_prl
+*.gbrjob
